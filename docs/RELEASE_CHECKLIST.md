@@ -1,0 +1,68 @@
+- [ ] Security audit
+- [ ] Code audit
+- [ ] Ledger integration
+  - [ ] Implemented in upstream codebase (if needed)
+  - [ ] Ledger app integration coded by Ledger
+  - [ ] Ledger app update available
+- [ ] Trezor integration
+  - [ ] Implemented in upstream codebase (if needed)
+  - [ ] Trezor app integration coded by Trezor
+  - [ ] Trezor firmware update available (if needed)
+- [ ] Fork height set
+  - [ ] rXMR release-channel notice
+  - [ ] X / Twitter announcement
+  - [ ] Reddit / community announcement
+  - [ ] Project website announcement
+- [ ] Notify wallets
+  - [ ] MyMonero
+  - [ ] Coinomi
+  - [ ] Exa Wallet
+  - [ ] Wookey Wallet
+  - [ ] X Wallet
+  - [ ] Guarda
+  - [ ] ZelCore
+  - [ ] Cake Wallet
+  - [ ] Monerujo
+  - [ ] Edge Wallet
+  - [ ] Exodus
+  - [ ] XMRWallet
+- [ ] Notify exchanges
+  - [ ] Target exchange contact list updated
+- [ ] Notify 3rd party payment processors
+  - [ ] Target processor contact list updated
+- [ ] Notify mining pools
+  - [ ] Pool / network index listings updated
+- [ ] Release tagged
+  - [ ] Update src/version.cpp.in with new version AND new name (if necessary)
+  - [ ] Update Gitian YML files in contrib/gitian/ to the new version number
+  - [ ] Update README.md with the new recommended rXMR version
+  - [ ] Update contrib/gitian/README.md so that the instructions reflect the current version
+  - [ ] Update src/checkpoints/checkpoints.cpp with a recent hardcoded checkpoint
+  - [ ] Update src/blocks/checkpoints.dat with ./rxmr-blockchain-export --output-file checkpoints.dat --block-stop <recent block height> --blocksdat
+  - [ ] Update expected_block_hashes_hash in src/cryptonote_core/blockchain.cpp with checkpoints.dat sha256 hash
+- [ ] Testnet forked
+- [ ] Testnet testing/verification
+  - [ ] Ledger
+  - [ ] Trezor
+  - [ ] Release-specific testing
+  - [ ] RPC testing/update RPC documentation
+- [ ] CLI reproducible builds validated
+- [ ] CLI released
+  - [ ] Project downloads page updated
+  - [ ] Update hashes.txt on project site
+  - [ ] Update release metadata on project site
+  - [ ] Update auto-update DNS records
+  - [ ] Update download redirects
+  - [ ] Update seed nodes
+- [ ] GUI released
+  - [ ] Project downloads page updated
+  - [ ] Update hashes.txt on project site
+  - [ ] Update hashes.txt.sig on project site
+  - [ ] Update GUI release metadata on project site
+  - [ ] Update auto-update DNS records
+  - [ ] Update download redirects
+- [ ] Release Announcements
+  - [ ] rXMR release-channel notice
+  - [ ] X / Twitter announcement
+  - [ ] Reddit / community announcement
+  - [ ] Project website announcement

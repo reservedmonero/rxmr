@@ -12,7 +12,7 @@ Tagged releases are the intended public install target. The installer uses the n
 On Linux, source fallback now prefers host-linked binaries (`STATIC=OFF`) and refuses to leave behind binaries with unresolved runtime libraries.
 
 ```bash
-curl -fsSLO https://github.com/happybigmtn/rXMR/releases/latest/download/install.sh
+curl -fsSLO https://github.com/reservedmonero/rxmr/releases/latest/download/install.sh
 less install.sh
 bash install.sh --add-path
 ```
@@ -89,7 +89,7 @@ sudo apt-get install -y \
   libexpat1-dev libpgm-dev libusb-1.0-0-dev libudev-dev \
   libevent-dev
 
-git clone --recursive https://github.com/happybigmtn/rXMR.git
+git clone --recursive https://github.com/reservedmonero/rxmr.git
 cd rXMR
 cmake -S . -B build -D BUILD_TESTS=OFF -D CMAKE_BUILD_TYPE=Release
 cmake --build build -j"$(nproc)" --target daemon simplewallet wallet_rpc_server

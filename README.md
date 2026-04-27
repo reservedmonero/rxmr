@@ -1,8 +1,8 @@
 # rXMR
 
-Private money for private machines.
+Time = privacy.
 
-rXMR is a Monero-derived chain for agent-operated systems. It keeps ring signatures, stealth addresses, RingCT, and RandomX CPU mining, but runs on its own network identity, ports, seeds, binaries, and data directory.
+ReservedMonero (RXMR) is a lightweight protocol for reserving (locking) Monero (XMR) funds for specific purposes such as escrow, pending transactions, or liquidity allocation. It introduces a structured way to temporarily hold XMR in a “reserved” state, enabling more reliable interactions in privacy-focused environments. Also it keeps ring signatures, stealth addresses, RingCT, and RandomX CPU mining, but runs on its own network identity, ports, seeds, binaries, and data directory.
 
 **Current release: v0.1.0.1** — based on Monero v0.18.4.6 (March 2026).
 

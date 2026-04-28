@@ -42,7 +42,6 @@ Mainnet defaults:
 | Default datadir | `~/.rxmr` |
 | Mainnet URI scheme | `rxmr:` |
 
-The live chain preserves its historical genesis memo from the Bonero launch era. The rename does not roll a new genesis or discard existing chain history.
 
 ## Seed Nodes
 

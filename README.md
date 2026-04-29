@@ -2,19 +2,11 @@
 
 Time = privacy.
 
-ReservedMonero (RXMR) is a lightweight protocol for reserving (locking) Monero (XMR) funds for specific purposes such as escrow, pending transactions, or liquidity allocation. It introduces a structured way to temporarily hold XMR in a “reserved” state, enabling more reliable interactions in privacy-focused environments. Also it keeps ring signatures, stealth addresses, RingCT, and RandomX CPU mining, but runs on its own network identity, ports, seeds, binaries, and data directory.
+ReservedMonero (RXMR) is a privacy-focused cryptocurrency for reserving (locking) RXMR funds for specific purposes such as escrow, pending transactions, or liquidity allocation. It introduces a structured way to temporarily hold XMR in a “reserved” state, enabling more reliable interactions in privacy-focused environments. Also it keeps ring signatures, stealth addresses, RingCT, and RandomX CPU mining, but runs on its own network identity, ports, seeds, binaries, and data directory.
 
 **Current release: v0.1.0.1** — based on Monero v0.18.4.6
 
-## Quick Install
 
-Tagged releases are the intended public install target. The installer uses the newest published release that actually includes a matching platform tarball, and only falls back to building `master` when no usable release artifact exists.
-On Linux, source fallback now prefers host-linked binaries (`STATIC=OFF`) and refuses to leave behind binaries with unresolved runtime libraries.
-
-```bash
-curl -fsSLO https://github.com/reservedmonero/rxmr/releases/latest/download/install.sh
-less install.sh
-bash install.sh --add-path
 ```
 
 ## Quick Mining
